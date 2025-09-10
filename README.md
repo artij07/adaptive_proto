@@ -1,75 +1,59 @@
-<<<<<<< HEAD
-# Getting Started with Create React App
+# Adaptive Learning Prototype
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a hackathon project: **Adaptive AI-powered Learning Assessment & Practice Tool** built with React.js.  
+It is designed to help students identify their learning gaps and provide personalized practice questions, while offering dashboards for teachers and parents to monitor progress.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 👥 Group Information
 
-### `npm start`
+**Team Name:** BrainWave Innovators  
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+| Member Name        | Role in Project                          |
+|-------------------|----------------------------------------|
+| Arti Jadhav        | Frontend Developer & UI Designer        |
+| Sneha Basugade    | Backend Developer & API Integration     |
+| Shravani Chavan   | AI/Adaptive Logic Developer             |
+| Priti Chavan    | Documentation & Testing Lead            |
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🚀 Features
 
-### `npm test`
+- Adaptive Assessment: Questions adjust difficulty (Easy → Medium → Hard) based on student performance.
+- Learning Gap Identification: Tracks gaps in Listening, Grasping, Retention, and Application.
+- Personalized Practice: Suggests questions tailored to each student’s weak areas.
+- Dashboards:
+  - Student: Tracks progress and performance.
+  - Teacher: Monitors multiple students and identifies trends.
+  - Parent: Views child’s progress and learning gaps.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 🛠️ Tech Stack
 
-### `npm run build`
+- Frontend: React.js
+- Backend: Node.js + npm
+- Visualization: Chart.js / SVG-based charts
+- Version Control: Git & GitHub
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 📂 Folder Structure
+adaptive-proto/
+│
+├─ public/ # Static files
+├─ src/ # React components and pages
+│ ├─ components/ # Reusable UI components
+│ ├─ pages/ # App pages (Student, Teacher, Parent dashboards)
+│ ├─ utils/ # Utility functions and adaptive logic
+│ └─ App.js # Main app component
+├─ package.json # Project dependencies
+└─ README.md # Project documentation
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## ▶️ Run Locally
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Clone the repository and install dependencies:
 
-### `npm run eject`
+```bash
+git clone https://github.com/artij07/adaptive-proto.git
+cd adaptive-proto
+npm install
+npm start
+Open http://localhost:3000
+ to view the app in your browser.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-=======
-# adaptive_proto
-Adaptive AI-powered Learning Assessment &amp; Practice Tool (Hackathon Prototype)
->>>>>>> f9bc49b12092329770854dbfe2f543ee3bedea77
