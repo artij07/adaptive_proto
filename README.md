@@ -58,7 +58,8 @@ Open http://localhost:3000
  to view the app in your browser.
 ```
 
-📄 Documentation: Adaptive Learning Prototype
+📄 Documentation: Adaptive Learning Prototype:
+
 1️⃣ Problem Statement:
 
 Traditional learning assessment tools do not adapt to individual student needs.
@@ -107,6 +108,7 @@ Adaptive Logic Module	Question difficulty adjustment, gap tracking
 Node.js Backend	API endpoints, data handling
 Chart.js / SVG	Visual representation of progress & gaps
 Database (optional)	Store student responses and history
+
 4️⃣ Implementation
 
 1.Frontend:
