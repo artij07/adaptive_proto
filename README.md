@@ -7,7 +7,7 @@ It is designed to help students identify their learning gaps and provide persona
 
 ## 👥 Group Information
 
-**Team Name:** BrainWave Innovators  
+**Team Name:** ScamSnare  
 
 | Member Name        | Role in Project                          |
 |-------------------|----------------------------------------|
